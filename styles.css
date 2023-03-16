@@ -2,8 +2,6 @@ body{
     margin: 0px;
 }
 
-/*navbar*/
-
 .nav-container {
     position: sticky;
     z-index: 3;
@@ -36,8 +34,6 @@ body{
     cursor: pointer;
 }
 
-/*Banner Styles*/
-
 .banner {
     background-size: cover;
     background-position: center;
@@ -65,8 +61,6 @@ body{
     opacity: 0.7;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
-
-/*Product cards*/
 
 .shop-content {
     display: flex;
@@ -110,8 +104,6 @@ body{
 .card button:hover{
     opacity: 0.7;
 }
-
-/*modal content*/
 
 .modal-container{
     width: 80%;
@@ -169,4 +161,36 @@ body{
     padding: 20px;
     text-align: center;
     padding-top: 20px;
+}
+
+.delete-product{
+    cursor: pointer;
+}
+
+.cantidad-carrito {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
+
+.sumar{
+    cursor: pointer;
+}
+
+.restar{
+    cursor: pointer;
+}
+
+.end-buying{
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+    font-weight: 600;
+    cursor: pointer;
 }
